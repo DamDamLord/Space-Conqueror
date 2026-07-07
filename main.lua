@@ -1,8 +1,10 @@
--- =============================================================================
+-- Space Conqueror - Main Entry Point
+-- Fixed: relative module paths for global compatibility
+ =============================================================================
 -- 1. SETUP AND IMPORTS
 -- =============================================================================
-local tools = require("outils")
-local factory = require("vaisseau")
+local tools = require("Projets.Space Conqueror.outils")
+local factory = require("Projets.Space Conqueror.vaisseau")
 
 -- =============================================================================
 -- 2. GAME SETTINGS
